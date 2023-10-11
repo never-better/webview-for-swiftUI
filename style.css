@@ -1,0 +1,35 @@
+.center-element {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+.margin-bottom {
+  margin-bottom: 40px;
+}
+
+.text-input {
+  border: 1px solid #d1d1d6;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  color: #000;
+}
+
+.bg-orange {
+  background-color: #ff9500
+}
+
+.button-normal {
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 100px; /* 상하 10px, 좌우 0px로 수정 */
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  width: auto;
+}
